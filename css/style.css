@@ -18,6 +18,7 @@
      border-radius: 2rem;
      z-index: 2;
      backdrop-filter: blur(2rem);
+     display: flex;
  }
  .circle1 {
      background: white;
@@ -26,7 +27,7 @@
      width: 16rem;
      position: absolute;
      top: 4%;
-     right: 15%;
+     right: 13%;
      border-radius: 50%;
  }
  .circle2 {
@@ -36,6 +37,57 @@
     width: 16rem;
     position: absolute;
     bottom: 4%;
-    left: 10%;
+    left: 13%;
     border-radius: 50%;
 }
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+.link {
+    display: flex;
+    margin-bottom: 20px;
+    margin: 5rem, 0rem;
+    padding: 1rem, 5rem;
+    align-items: center;
+}
+.link img {
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+.link h2 {
+    font-size: 17px;
+    color: rgb(48, 42, 42);
+    padding: 5rem, 8rem;
+}
+.games {
+    flex: 2;   
+}
+.pro {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    color: #6cdbeb;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+}
+.pro img {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+.pro h4 {
+    
+}
+
+
+
